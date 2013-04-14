@@ -11,7 +11,7 @@ public:
         //int isneg = 0;// A negative flag is not actually needed
         int res = 0;
   	//when x == 0
-		if(!x) return x;
+		//if(!x) return x;//  x=0 case can be filtered by the while loop
 		//when x is negative
 		/*if(x < 0) {
 			isneg = 1;
